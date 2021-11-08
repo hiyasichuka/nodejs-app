@@ -45,57 +45,9 @@
               lg:justify-start
             "
             aria-label="Global"
-          >
-            <div
-              class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0"
-            >
-              <div class="flex items-center justify-between w-full md:w-auto">
-                <a href="#">
-                  <span class="sr-only">Workflow</span>
-                  <img
-                    class="h-8 w-auto sm:h-10"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                  />
-                </a>
-              </div>
-            </div>
-          </nav>
+          ></nav>
         </div>
-        <div id="video-area">
-          <video
-            id="video"
-            poster="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-3-1/img/movie.jpg"
-            webkit-playsinline
-            playsinline
-            muted
-            autoplay
-            loop
-          >
-            <!--
-        poster：動画ファイルが利用できない環境で代替表示される画像
-        webkit-playsinline：iOS 9までのSafari用インライン再生指定
-        playsinline：iOS 10以降のSafari用インライン再生指定
-        muted：音声をミュートさせる
-        autoplay：動画を自動再生させる
-        loop：動画をループさせる
-        controls：コントロールバーを表示する
-    -->
-            <source
-              src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-3-1/video/movie.mp4"
-              type="video/mp4"
-            />
-            <source
-              src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-3-1/video/movie.ogv"
-              type="video/ogv"
-            />
-            <source
-              src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-3-1/video/movie.webm"
-              type="video/webm"
-            />
-            <p>動画を再生できる環境ではありません。</p>
-          </video>
-          <!--/video-area-->
-        </div>
+
         <main
           class="
             mt-10
@@ -119,10 +71,10 @@
                 md:text-6xl
               "
             >
-              <span class="block xl:inline">Data to enrich your</span>
+              <span class="block xl:inline">We can empower</span>
               {{ " " }}
               <span class="block text-indigo-600 xl:inline"
-                >online business</span
+                >Your Bussiness</span
               >
             </h1>
             <p
@@ -134,9 +86,12 @@
                 lg:mx-0
               "
             >
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              pariatur natus asperiores quos, aperiam necessitatibus explicabo
+              dolorem magni doloremque illo laborum ipsa dicta. Blanditiis sequi
+              vero nihil totam nesciunt deserunt ipsam quos ad rem? Ut cum
+              voluptatibus consequatur porro voluptatum iusto ad blanditiis
+              mollitia! Earum impedit dolores unde rerum incidunt!
             </p>
             <div
               class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
@@ -195,7 +150,7 @@
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
       <img
         class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-        src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+        src="@/static/photo.jpg"
         alt=""
       />
     </div>
